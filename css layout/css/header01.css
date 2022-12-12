@@ -1,0 +1,86 @@
+.Wrap {
+    width: 1900px;
+}
+
+#header {
+    border-top: 3px solid tomato;
+    line-height: 100px;
+}
+
+#header .inner {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .gnb>ul {
+    display: flex;
+    gap: 30px;
+}
+
+#header .gnb>ul a {
+    display: block;
+}
+
+/* header */
+.mainVisual {
+    position: relative;
+    background: url(../img/main_visual01.jpg) no-repeat center center/cover;
+    height: 500px;
+}
+
+.mainVisual .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mainVisual .slogan h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0 0 20px 0;
+}
+
+.mainVisual .slogan p {
+    color: #fff;
+    font-size: 15px;
+}
+
+.mainContent {
+    padding: 100px 0;
+}
+
+.mainContent h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.mainContent p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.mainContent .inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainContent .inner figure {
+    flex: 1;
+}
+
+#footer {
+    padding: 30px 0 60px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
