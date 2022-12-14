@@ -1,0 +1,113 @@
+/* * {
+    outline: 1px solid tomato;
+} */
+
+/* body {
+    overflow-x: hidden;
+}
+
+.Wrap {
+    min-width: 1900px;
+} */
+
+#header {
+    display: flex;
+    line-height: 100px;
+    padding: 0 50px;
+}
+
+#header h1 {
+    flex: 1;
+    font-size: 0;
+}
+
+#header .link {
+    flex: 1;
+    text-align: right;
+}
+
+#header .gnb>ul {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+}
+
+#header .gnb>ul a {
+    display: block;
+}
+
+/* header */
+
+.mainVisual {
+    position: relative;
+    background: url(../img/main_visual01.jpg) no-repeat center center/cover;
+    height: 700px;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+}
+
+.mainVisual .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mainVisual .slogan h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mainVisual .slogan p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.mainVisual .icon {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-size: 80px;
+}
+
+/* mainVisual */
+
+.mainContent {
+    padding: 100px 0;
+}
+
+.mainContent h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.mainContent p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.mainContent .inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainContent .inner figure {
+    flex: 1;
+}
+
+#footer {
+    padding: 30px 0 60px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
