@@ -1,0 +1,100 @@
+#header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 999;
+}
+
+#header h1 {
+    line-height: 120px;
+    text-align: center;
+}
+
+#header .gnb {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#header .gnb>ul {
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    text-align: center;
+}
+
+#header .gnb>ul>li~li {
+    border-left: 1px solid #ddd;
+}
+
+#header .gnb>ul>li>a {
+    display: block;
+    padding: 0 30px;
+}
+
+/* header */
+.sec {
+    padding: 100px 0;
+    /* position: relative; */
+}
+
+.sec:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+.sec h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.sec figure {
+    margin: 0 0 30px 0;
+}
+
+.sec .inner {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.sec .inner>* {
+    flex: 1;
+}
+
+/* .m02 .left {
+    order: 2;
+} */
+
+.sec:nth-child(even) .right {
+    order: -1;
+}
+
+.sec .inner .left .txt_box {
+    position: sticky;
+    top: 50%;
+}
+
+.totop {
+    position: sticky;
+    bottom: 100px;
+    width: 50px;
+    margin: 0 50px 0 auto;
+}
+
+.totop i {
+    padding: 10px;
+    background: tomato;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* main */
+#footer {
+    position: sticky;
+    top: 0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 30px 0 50px 0;
+    height: 300px;
+}
